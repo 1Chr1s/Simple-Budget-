@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+    <TextView
+        android:id="@+id/income_Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/income"
+        android:textSize="40sp"
+        android:layout_marginTop="50sp"
+        />
+
+    <TextView
+        android:id="@+id/needs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/needs"
+        android:textSize="25sp"
+        android:layout_below="@id/income_Display"
+        android:layout_marginTop="75sp"
+
+        />
+
+    <TextView
+        android:id="@+id/needs_Output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_below="@id/needs"
+        android:layout_marginTop="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/wants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wants"
+        android:textSize="25sp"
+        android:layout_below="@id/income_Display"
+        android:layout_toRightOf="@id/needs"
+        android:layout_marginTop="75sp"
+        android:layout_marginLeft="50sp"
+        />
+
+    <TextView
+        android:id="@+id/wants_Output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_below="@id/wants"
+        android:layout_toRightOf="@id/needs_Output"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/investments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/investments"
+        android:textSize="25sp"
+        android:layout_below="@id/income_Display"
+        android:layout_toRightOf="@id/wants"
+        android:layout_marginTop="75sp"
+        android:layout_marginLeft="25sp"
+        />
+
+    <TextView
+        android:id="@+id/investment_Output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_below="@id/investments"
+        android:layout_toRightOf="@id/wants_Output"
+        android:layout_marginTop="20sp"
+        />
+
+</RelativeLayout>

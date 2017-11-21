@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple Budget</string>
+    <string name="welcome">Welcome to Simple Budget</string>
+    <string name="enter_amount">Enter amount of money you earned:</string>
+    <string name="needs">Needs</string>
+    <string name="wants">Wants</string>
+    <string name="investments">Investments</string>
+    <string name="enter">Enter</string>
+    <string name="income">Income: $</string>
+    <string name="title_activity_output">outputActivity</string>
+
+</resources>
